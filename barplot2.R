@@ -17,7 +17,6 @@ meat <- read.csv("C:/Users/alecoo/OneDrive - Karolinska Institutet/Desktop/Portf
 
 
 
-
 # change subject, measure, and location to factor variables
 meat <- meat %>% mutate(subject = as.factor(subject),
                         measure = as.factor(measure),
